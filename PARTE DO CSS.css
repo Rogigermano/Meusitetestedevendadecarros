@@ -1,0 +1,82 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    
+    list
+list-style: none;
+}
+
+nav ul li {
+    
+   
+display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    max-width: 1200px;
+    
+   
+margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Estilos para a lista de carros */
+.car-list {
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+gap: 20px;
+}
+
+.car {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    
+   
+    max-width: 370px;
+        max-height: 370px;
+    }
+.car img {
+    
+    max
+max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para o rodapé */
+footer {
+    
+   
+background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
